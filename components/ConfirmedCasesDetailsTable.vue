@@ -9,7 +9,7 @@
         </span>
       </div>
       <ul :class="$style.group">
-        <li :class="[$style.box, $style.parent]">
+        <li :class="[$style.box]">
           <div :class="$style.content">
             <span>{{ $t('入院') }}</span>
             <span>
@@ -17,8 +17,8 @@
               <span :class="$style.unit">{{ $t('人') }}</span>
             </span>
           </div>
+          <!--
           <ul :class="$style.group">
-            <!--
             <li :class="[$style.box]">
               <div :class="$style.content">
                 
@@ -40,8 +40,8 @@
                 </span>
               </div>
             </li>
-            -->
           </ul>
+          -->
         </li>
         <li :class="[$style.box]">
           <div :class="$style.content">

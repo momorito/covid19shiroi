@@ -59,7 +59,7 @@
       <footer class="SideNavigation-Footer">
         <div class="SideNavigation-Social">
           <app-link
-            to="https://line.me/R/ti/p/%40822sysfc"
+            to="https://line.me/R/ti/p/%40408efpjd"
             :show-icon="false"
             class="SideNavigation-SocialLink"
           >
@@ -69,7 +69,7 @@
             </picture>
           </app-link>
           <app-link
-            to="https://twitter.com/tokyo_bousai"
+            to="https://twitter.com/shiroi_city"
             :show-icon="false"
             class="SideNavigation-SocialLink"
           >
@@ -79,7 +79,7 @@
             </picture>
           </app-link>
           <app-link
-            to="https://www.facebook.com/tochokoho"
+            to="https://www.facebook.com/shiroinomiryoku/"
             :show-icon="false"
             class="SideNavigation-SocialLink"
           >
@@ -94,7 +94,7 @@
             </picture>
           </app-link>
           <app-link
-            to="https://github.com/tokyo-metropolitan-gov/covid19"
+            to="https://github.com/momorito/covid19shiroi"
             :show-icon="false"
             class="SideNavigation-SocialLink"
           >
@@ -104,7 +104,7 @@
             </picture>
           </app-link>
           <app-link
-            to="https://www.youtube.com/user/tokyo/videos"
+            to="https://www.youtube.com/channel/UC5O21usiaJUMHwvSuAm1Wng"
             :show-icon="false"
             class="SideNavigation-SocialLink"
           >
@@ -201,116 +201,63 @@ export default Vue.extend({
         },
         {
           svg: 'CovidIcon',
-          title: this.$t('新型コロナウイルス感染症が心配なときに.nav'),
+          title: this.$t('市内における感染発生状況について.nav'),
           link:
-            'https://www.fukushihoken.metro.tokyo.lg.jp/iryo/kansen/coronasodan.html',
+            'https://www.city.shiroi.chiba.jp/kenko/covid19/jokyo/index.html',
         },
         {
           svg: 'CovidIcon',
-          title: this.$t('新型コロナウイルスの感染が判明した方へ'),
+          title: this.$t('新型コロナワクチンの接種について'),
           link:
-            'https://www.fukushihoken.metro.tokyo.lg.jp/oshirase/corona_0401.html',
+            'https://www.city.shiroi.chiba.jp/kenko/covid19/vaccine/8405.html',
         },
         {
-          svg: 'SupportIcon',
+          svg: 'CovidIcon',
           title: this.$t(
-            '新型コロナウイルス感染症の患者発生状況に関するよくあるご質問'
+            '感染対策・予防'
           ),
           link:
-            'https://www.fukushihoken.metro.tokyo.lg.jp/iryo/kansen/coronafaq.html',
+            'https://www.city.shiroi.chiba.jp/kenko/covid19/yobou/index.html',
         },
         {
-          svg: 'MaskTrashIcon',
-          title: this.$t('ご家庭でのマスク等の捨て方'),
+          svg: 'CovidIcon',
+          title: this.$t('市の相談・支援'),
           link:
-            'https://www.kankyo.metro.tokyo.lg.jp/resource/500200a20200221162304660.files/200327_chirashi.pdf',
+            'https://www.city.shiroi.chiba.jp/kenko/covid19/sien/index.html',
           divider: true,
         },
         {
-          svg: 'ParentIcon',
-          title: this.$t('お子様をお持ちの皆様へ'),
-          link: this.localePath('/parent'),
+          svg: 'CovidIcon',
+          title: this.$t('About the New Coronavirus 外国人向け情報'),
+          link: ('https://www.city.shiroi.chiba.jp/kenko/covid19/info/8402.html'),
         },
         {
           iconPath: mdiAccountMultiple,
-          title: this.$t('都民の皆様へ'),
-          link: 'https://www.metro.tokyo.lg.jp/tosei/tosei/news/2019-ncov.html',
+          title: this.$t('白井市新型コロナウイルス感染症対策本部会議'),
+          link: 'https://www.city.shiroi.chiba.jp/kenko/covid19/taiou/9033.html',
+          divider:true,
         },
         {
-          iconPath: mdiDomain,
-          title: this.$t('企業の皆様・はたらく皆様へ'),
-          link: this.localePath('/worker'),
-          divider: true,
-        },
-        {
-          title: this.$t('東京都新型コロナウイルス感染症対策本部報'),
+          title: this.$t('市長メッセージ'),
           link:
-            'https://www.bousai.metro.tokyo.lg.jp/taisaku/saigai/1010035/index.html',
+            'https://www.city.shiroi.chiba.jp/kenko/covid19/info/8590.html',
         },
         {
-          title: this.$t('東京都 新型コロナウイルス感染症 支援情報ナビ'),
-          link: 'https://covid19.supportnavi.metro.tokyo.lg.jp/',
-        },
-        {
-          title: this.$t('東京iCDC（東京感染症対策センター）からのお知らせ'),
-          link: 'https://note.com/tokyo_icdc',
-        },
-        {
-          title: this.$t(
-            '新型コロナウイルス感染症都民向け感染予防ハンドブック'
-          ),
+          title: this.$t('千葉県からのお願い'),
           link:
-            'https://www.fukushihoken.metro.tokyo.lg.jp/iryo/kansen/kannsenyobouhandbook.html',
+            'https://www.city.shiroi.chiba.jp/kenko/covid19/info/8404.html',
         },
         {
-          title: this.$t('新型コロナウイルス感染症自宅療養者向けハンドブック'),
-          link:
-            'https://www.fukushihoken.metro.tokyo.lg.jp/iryo/kansen/zitakuryouyouhandbook.html',
-        },
-        {
-          title: this.$t('新型コロナウイルスワクチンの接種について'),
-          link:
-            'https://www.fukushihoken.metro.tokyo.lg.jp/iryo/kansen/coronavaccine.html',
-        },
-        {
-          title: this.$t(
-            '新型コロナウイルス感染症に罹患し回復された方の体験に基づくメッセージの紹介'
-          ),
-          link:
-            'https://www.seisakukikaku.metro.tokyo.lg.jp/information/corona-message-for-you-02.html',
-        },
-        {
-          title: this.$t('都民利用施設・都主催イベントに関する情報'),
-          link:
-            'https://www.seisakukikaku.metro.tokyo.lg.jp/information/event00.html',
-        },
-        {
-          title: this.$t('東京都における滞在人口の増減'),
-          link:
-            'https://www.seisakukikaku.metro.tokyo.lg.jp/information/corona-people-flow-analysis.html',
-        },
-        {
-          title: this.$t('知事からのメッセージ'),
-          link:
-            'https://www.metro.tokyo.lg.jp/tosei/governor/governor/katsudo/2020/03/03_00.html',
+          title: this.$t('白井市公式ホームページ'),
+          link: 'https://www.city.shiroi.chiba.jp/',
+          divider:true,
         },
         {
           title: this.$t('当サイトについて'),
           link: this.localePath('/about'),
         },
-        {
-          title: this.$t('ご意見はこちら（外部サービスを使用しています）'),
-          link:
-            'https://docs.google.com/forms/d/e/1FAIpQLSdSROCPyr6Aj6WoAoYfqcT6StDOEUB38Grug1EJjUYzppcEZg/viewform?usp=sf_link',
-        },
-        {
-          title: this.$t('お問い合わせ先一覧'),
-          link: this.localePath('/contacts'),
-        },
-        {
-          title: this.$t('白井市公式ホームページ'),
-          link: 'https://www.city.shiroi.chiba.jp/',
-        },
+    
+        
       ]
     },
     logoSrc(): string {
