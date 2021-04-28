@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/momorito/covid19shiroi)](https://github.com/momorito/covid19shiroi/stargazers)
 [![GitHub license](https://img.shields.io/github/license/momorito/covid19shiroi)](https://github.com/momorito/covid19shiroi/blob/development/LICENSE.txt)
 
-![shiroi covid logo]](static/covidshiroilogo.png)
+![shiroi covid logo](static/covidshiroilogo.png)
 
 
 ## 行動原則
