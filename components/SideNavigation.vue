@@ -19,7 +19,7 @@
           />
           <div class="SideNavigation-HeaderText">
             {{ $t('menu/新型コロナウイルス感染症') }}<br />{{
-              $t('menu/対策サイト')
+              $t('menu/対策サイト（※非公式）')
             }}
           </div>
         </app-link>
@@ -131,8 +131,9 @@
         </i18n>
         <br />
         <small class="SideNavigation-Copyright">
-          &copy; 2020 Tokyo Metropolitan Government
+          &copy; 2021 Shiroi Stop Covid19 Team
         </small>
+        <!--
         <div class="SideNavigation-GMarkWrapper">
           <app-link
             to="https://www.g-mark.org/award/describe/51112"
@@ -145,6 +146,7 @@
             />
           </app-link>
         </div>
+        -->
       </footer>
     </div>
   </div>

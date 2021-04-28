@@ -9,9 +9,10 @@
         :date="date"
         :unit="$t('人')"
         :by-date="true"
-        :url="'https://catalog.data.metro.tokyo.lg.jp/dataset/t000010d0000000068'"
+        :url="'https://www.city.shiroi.chiba.jp/kenko/covid19/jokyo/8420.html'"
       >
         <template #description>
+          <!--
           <app-link
             :to="`${
               $i18n.locale !== 'ja' ? $i18n.locale : ''
@@ -20,8 +21,10 @@
           >
             {{ $t('発症日別による陽性者数の推移はこちら') }}
           </app-link>
+          -->
         </template>
         <template #additionalDescription>
+          <!--
           <div class="Description-ExternalLink">
             <app-link
               to="https://www.fukushihoken.metro.tokyo.lg.jp/iryo/kansen/todokedehcyouseisya.html"
@@ -29,16 +32,14 @@
               {{ $t('65歳以上の新規陽性者数の推移及び届出保健所別の内訳') }}
             </app-link>
           </div>
+          -->
           <span>{{ $t('（注）') }}</span>
           <ul>
             <li>
-              {{ $t('保健所から発生届が提出された日を基準とする') }}
+              {{ $t('白井市が公開した日を基準とする') }}
             </li>
             <li>
-              {{ $t('医療機関等が行った検査も含む') }}
-            </li>
-            <li>
-              {{ $t('チャーター機帰国者、クルーズ船乗客等は含まれていない') }}
+              {{ $t('発生が確認されなかった場合の人数は0人としている') }}
             </li>
           </ul>
         </template>
