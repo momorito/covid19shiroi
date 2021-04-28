@@ -1,8 +1,11 @@
-# 白井市 新型コロナウイルス感染症対策サイト
+# 白井市 新型コロナウイルス感染症対策サイト(※非公式）
 
-[![production deploy](https://github.com/tokyo-metropolitan-gov/covid19/workflows/production%20deploy/badge.svg?branch=master)](https://github.com/tokyo-metropolitan-gov/covid19/actions?query=workflow%3A%22production+deploy%22)
-[![OGP Builder](https://github.com/tokyo-metropolitan-gov/covid19/workflows/OGP%20Builder/badge.svg?branch=master)](https://github.com/tokyo-metropolitan-gov/covid19/actions?query=workflow%3A%22OGP+Builder%22)
-[![Auto-i18n Generator](https://github.com/tokyo-metropolitan-gov/covid19/workflows/Auto-i18n%20Generator/badge.svg?branch=development)](https://github.com/tokyo-metropolitan-gov/covid19/actions?query=workflow%3A%22Auto-i18n+Generator%22)
+[![GitHub issues](https://img.shields.io/github/issues/momorito/covid19shiroi)](https://github.com/momorito/covid19shiroi/issues)
+[![GitHub forks](https://img.shields.io/github/forks/momorito/covid19shiroi)](https://github.com/momorito/covid19shiroi/network)
+[![GitHub stars](https://img.shields.io/github/stars/momorito/covid19shiroi)](https://github.com/momorito/covid19shiroi/stargazers)
+[![GitHub license](https://img.shields.io/github/license/momorito/covid19shiroi)](https://github.com/momorito/covid19shiroi/blob/development/LICENSE.txt)
+
+![shiroi covid logo]](static/covidshiroilogo.png)
 
 
 ## 行動原則
