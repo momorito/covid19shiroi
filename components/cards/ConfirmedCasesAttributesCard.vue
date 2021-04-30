@@ -7,7 +7,7 @@
         :table-data="patientsTable"
         :date="date"
         :info="sumInfoOfPatients"
-        :url="'https://catalog.data.metro.tokyo.lg.jp/dataset/t000010d0000000068'"
+        :url="'https://www.city.shiroi.chiba.jp/kenko/covid19/jokyo/8420.html'"
         :loaded="dataMargin >= 0"
         :error="$fetchState.error"
         :data-length="dataLength"
@@ -42,21 +42,7 @@
           <span>{{ $t('（注）') }}</span>
           <ul>
             <li>
-              {{ $t('「確定日」は検査により陽性であることを医師が確認した日') }}
-            </li>
-            <li>
-              {{
-                $t(
-                  '「職業」「接触歴」「発症日」「確定日」は、2020年10月1日以降の情報について週1回更新'
-                )
-              }}
-            </li>
-            <li>
-              {{
-                $t(
-                  '「退院」は、保健所から報告があり、確認ができているものを反映（死亡退院を含む）'
-                )
-              }}
+              {{ $t('白井市が公開した日を基準とする') }}
             </li>
           </ul>
         </template>
