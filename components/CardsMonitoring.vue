@@ -12,6 +12,10 @@ const ConfirmedCasesDetailsCard = () =>
 // 報告日別による陽性者数の推移
 const ConfirmedCasesNumberCard = () =>
   import('@/components/cards/ConfirmedCasesNumberCard.vue')
+// モニタリング項目(1)新規陽性者数
+const MonitoringConfirmedCasesNumberCard = () =>
+  import('@/components/cards/MonitoringConfirmedCasesNumberCard.vue')
+
 
   /*
 // モニタリング項目
@@ -43,6 +47,7 @@ export default Vue.extend({
     return {
       rows: [
         [ConfirmedCasesDetailsCard, ConfirmedCasesNumberCard],
+        [MonitoringConfirmedCasesNumberCard],
         /*
         [MonitoringItemsOverviewCard, MonitoringConfirmedCasesNumberCard],
         [ConsultationAboutFeverNumberCard, UntrackedRateCard],
