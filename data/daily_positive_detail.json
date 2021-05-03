@@ -4367,6 +4367,17 @@
             "weekly_average_count": 3.1,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
+        },
+        {
+            "diagnosed_date": "2021-05-03",
+            "count": 3,
+            "missing_count": null,
+            "reported-count": null,
+            "weekly_gain_ratio": null,
+            "untracked_percent": null,
+            "weekly_average_count": 3.6,
+            "weekly_average_untracked_count": null,
+            "weekly_average_untracked_increse_percent": null
         }
         
 
