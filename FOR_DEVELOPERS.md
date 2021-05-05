@@ -12,7 +12,6 @@
 |[docker compose](https://docs.docker.com/compose/install/)| |[本プログラムをdocker composeで実行する場合](#2-2-docker-compose-を使う場合)|
 |[Vagrant](https://www.vagrantup.com/)| |[本プログラムをVagrantで実行する場合](#2-3-vagrant-を使う場合)|
 |[Visual Studio Code](https://code.visualstudio.com/) + [Remote Containers](https://code.visualstudio.com/docs/remote/remote-overview) | |[Visual Studio Code + Remote Containersで開発する場合](#2-4-visual-studio-code--remote-containersで開発する場合)|
-|[Gitpod](https://www.gitpod.io/)| |[Gitpodで開発する場合](#2-5-gitpodで開発する場合)|
 
 ### 1-1. Visual Studio Codeの拡張機能
 
@@ -112,14 +111,6 @@ $ vagrant up
 詳細な手順は、[Managing extensions (外部サイト)](https://code.visualstudio.com/docs/remote/containers#_managing-extensions)を参照してください。
 - 開発環境を再構築する場合は、左下部の「Rebuild Container」を実行してください。
 
-### 2-5. Gitpodで開発する場合
-
-以下のボタンを押し、GitHubアカウント認証をすると、自動的にリモート開発環境のセットアップが行われます。
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/tokyo-metropolitan-gov/covid19)
-
-無償ユーザーは月50時間まで利用できます。
-
 ---
 
 ## 3. 本番環境/その他の判定
@@ -129,3 +120,180 @@ $ vagrant up
 
 ---
 
+## 4. 各数値の格納場所
+# (1) 最新のお知らせ
+- 基本的な項目　→　data/news.jsonに記載。
+- 最終更新　→　data/data.json中の"lastUpdate"に記載
+   
+```記載例（基本的な項目 news.json）
+{
+    "newsItems": [
+        {
+            "date": "2021\/04\/30",
+            "url": "https:\/\/www.city.shiroi.chiba.jp\/kenko\/covid19\/jokyo/8420.html",
+            "text": "市内における感染者の発生について｜4月30日更新"
+        },
+        {
+            "date": "2021\/04\/30",
+            "url": "https:\/\/www.city.shiroi.chiba.jp\/kenko/covid19\/info\/8404.html",
+            "text": "千葉県からのお願い【新型コロナ】"
+        },
+        {
+            "date": "2021\/04\/30",
+            "url": "https:\/\/www.city.shiroi.chiba.jp\/kenko/covid19\/jokyo/8421.html",
+            "text": "市内小中学校の感染状況について｜4月30日更新"
+        },
+        
+        {
+            "date": "2021\/04\/27",
+            "url": "https:\/\/www.city.shiroi.chiba.jp\/kenko\/covid19\/vaccine\/9121.html",
+            "text": "ワクチン接種時に利用できるタクシー券を交付（要介護2以上・重度心身障がいの方向け）"
+        },
+        {
+            "date": "2021\/04\/23",
+            "url": "https:\/\/www.city.shiroi.chiba.jp\/kenko\/covid19\/jokyo\/8562.html",
+            "text": "市職員の感染について｜4月23日更新"
+        }
+        
+    ]
+}
+   ```
+
+```記載例（最終更新 data.json）
+
+"lastUpdate": "2021\/05\/05 21:00",
+```
+
+
+# (2) 検査陽性者の状況
+- 各種人数・更新日　→　data/data.json中の"main_summary"に記載
+
+```記載例（各種人数 data.json）
+"main_summary": {
+        "children": [
+            {
+                "attr": "陽性患者数",
+                "date": "2021\/4\/30 21:00",
+                "value": 325,
+                "children": [
+                    {
+                        "attr": "入院中",
+                        "value": 2,
+                        "children": [
+                            {
+                                "attr": "軽症・中等症",
+                                "value": 0
+                            },
+                            {
+                                "attr": "重症",
+                                "value": 0
+                            }
+                        ]
+                    },
+                    {
+                        "attr": "退院",
+                        "value": 299
+                    },
+                    {
+                        "attr": "死亡",
+                        "value": 12
+                    },
+                    {
+                        "attr": "宿泊療養",
+                        "value": 7
+                    },
+                    {
+                        "attr": "自宅療養",
+                        "value": 5
+                    },
+                    {
+                        "attr": "調査中",
+                        "value": 0
+                    }
+                ]
+            }
+        ]
+    }
+
+   ```
+
+# (3) 報告日別による陽性者数の推移
+- 日付と数字　→　data/data.json中の"patients_summary"に記載
+- 最終更新日は"patients_summary"中の"date"に記載
+
+```記載例（data.json）
+"patients_summary": {
+        "date": "2021\/05\/05 21:30",
+        "data": [
+            {	
+                "日付": "2020-04-01T08:00:00.000Z",
+                "小計": 0
+            },	
+            
+            （略）
+
+            {	
+                "日付": "2021-05-04T08:00:00.000Z",
+                "小計": 0
+            },
+            {	
+                "日付": "2021-05-05T08:00:00.000Z",
+                "小計": 1
+            }
+            
+            
+            
+        ]
+    },
+```
+   
+# (4) モニタリング項目（１）新規陽性者数
+- 人数と7日間平均　→　data/daily_positive_detail.jsonに記載
+- 最終更新日は"date"に記載する
+
+```記載例（daily_positive_detail.json）
+{
+    "date": "2021\/05\/05 21:30",
+    "data": [
+        {
+            "diagnosed_date": "2020-04-01",
+            "count": 0,
+            "missing_count": null,
+            "reported-count": null,
+            "weekly_gain_ratio": null,
+            "untracked_percent": null,
+            "weekly_average_count": null,
+            "weekly_average_untracked_count": null,
+            "weekly_average_untracked_increse_percent": null
+        },	
+        
+        （略）
+
+        {
+            "diagnosed_date": "2021-05-04",
+            "count": 0,
+            "missing_count": null,
+            "reported-count": null,
+            "weekly_gain_ratio": null,
+            "untracked_percent": null,
+            "weekly_average_count": 3.1,
+            "weekly_average_untracked_count": null,
+            "weekly_average_untracked_increse_percent": null
+        },
+        {
+            "diagnosed_date": "2021-05-05",
+            "count": 1,
+            "missing_count": null,
+            "reported-count": null,
+            "weekly_gain_ratio": null,
+            "untracked_percent": null,
+            "weekly_average_count": 3.1,
+            "weekly_average_untracked_count": null,
+            "weekly_average_untracked_increse_percent": null
+        }
+        
+
+    ]
+}
+
+```
