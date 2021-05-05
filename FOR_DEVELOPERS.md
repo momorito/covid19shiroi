@@ -112,14 +112,6 @@ $ vagrant up
 詳細な手順は、[Managing extensions (外部サイト)](https://code.visualstudio.com/docs/remote/containers#_managing-extensions)を参照してください。
 - 開発環境を再構築する場合は、左下部の「Rebuild Container」を実行してください。
 
-### 2-5. Gitpodで開発する場合
-
-以下のボタンを押し、GitHubアカウント認証をすると、自動的にリモート開発環境のセットアップが行われます。
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/tokyo-metropolitan-gov/covid19)
-
-無償ユーザーは月50時間まで利用できます。
-
 ---
 
 ## 3. 本番環境/その他の判定
@@ -131,8 +123,9 @@ $ vagrant up
 
 ## 4. 各数値の格納場所
 # (1) 最新のお知らせ
-   基本的な項目　→　data/news.jsonに記載。
-   最終更新　→　data/data.json中の"lastUpdate"に記載
+   - 基本的な項目　→　data/news.jsonに記載。
+   - 最終更新　→　data/data.json中の"lastUpdate"に記載
+   
    ・記載例（基本的な項目）
    ```
 {
@@ -174,4 +167,4 @@ $ vagrant up
 "lastUpdate": "2021\/05\/05 21:00",
 ```
 
-# (2) 検査要請車の状況
+# (2) 検査陽性者の状況
