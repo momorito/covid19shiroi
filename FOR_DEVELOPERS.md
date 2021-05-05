@@ -126,8 +126,7 @@ $ vagrant up
    - 基本的な項目　→　data/news.jsonに記載。
    - 最終更新　→　data/data.json中の"lastUpdate"に記載
    
-   ・記載例（基本的な項目 news.json）
-   ```
+```記載例（基本的な項目 news.json）
 {
     "newsItems": [
         {
@@ -159,21 +158,18 @@ $ vagrant up
         
     ]
 }
-
    ```
 
-・記載例（最終更新 data.json）
-```
+```記載例（最終更新 data.json）
 
 "lastUpdate": "2021\/05\/05 21:00",
-
 ```
+
 
 # (2) 検査陽性者の状況
     - 各種人数・更新日　→　data/data.json中の"main_summary"に記載
 
-     ・記載例（各種人数 data.json）
-   ```
+```記載例（各種人数 data.json）
 "main_summary": {
         "children": [
             {
