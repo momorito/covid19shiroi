@@ -164,7 +164,9 @@ $ vagrant up
 
 ・記載例（最終更新 data.json）
 ```
+
 "lastUpdate": "2021\/05\/05 21:00",
+
 ```
 
 # (2) 検査陽性者の状況
@@ -261,7 +263,7 @@ $ vagrant up
 {
     "date": "2021\/05\/05 21:30",
     "data": [
-        {	
+        {
             "diagnosed_date": "2020-04-01",
             "count": 0,
             "missing_count": null,
