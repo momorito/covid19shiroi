@@ -126,7 +126,7 @@ $ vagrant up
    - 基本的な項目　→　data/news.jsonに記載。
    - 最終更新　→　data/data.json中の"lastUpdate"に記載
    
-   ・記載例（基本的な項目）
+   ・記載例（基本的な項目 news.json）
    ```
 {
     "newsItems": [
@@ -162,9 +162,144 @@ $ vagrant up
 
    ```
 
-・記載例（最終更新）
+・記載例（最終更新 data.json）
 ```
 "lastUpdate": "2021\/05\/05 21:00",
 ```
 
 # (2) 検査陽性者の状況
+    - 各種人数・更新日　→　data/data.json中の"main_summary"に記載
+
+     ・記載例（各種人数 data.json）
+   ```
+"main_summary": {
+        "children": [
+            {
+                "attr": "陽性患者数",
+                "date": "2021\/4\/30 21:00",
+                "value": 325,
+                "children": [
+                    {
+                        "attr": "入院中",
+                        "value": 2,
+                        "children": [
+                            {
+                                "attr": "軽症・中等症",
+                                "value": 0
+                            },
+                            {
+                                "attr": "重症",
+                                "value": 0
+                            }
+                        ]
+                    },
+                    {
+                        "attr": "退院",
+                        "value": 299
+                    },
+                    {
+                        "attr": "死亡",
+                        "value": 12
+                    },
+                    {
+                        "attr": "宿泊療養",
+                        "value": 7
+                    },
+                    {
+                        "attr": "自宅療養",
+                        "value": 5
+                    },
+                    {
+                        "attr": "調査中",
+                        "value": 0
+                    }
+                ]
+            }
+        ]
+    }
+
+   ```
+
+   # (3) 報告日別による陽性者数の推移
+    - 日付と数字　→　data/data.json中の"patients_summary"に記載
+    - 最終更新日は"patients_summary"中の"date"に記載
+
+ ・記載例（data.json）
+   ```
+"patients_summary": {
+        "date": "2021\/05\/05 21:30",
+        "data": [
+            {	
+                "日付": "2020-04-01T08:00:00.000Z",
+                "小計": 0
+            },	
+            
+            （略）
+
+            {	
+                "日付": "2021-05-04T08:00:00.000Z",
+                "小計": 0
+            },
+            {	
+                "日付": "2021-05-05T08:00:00.000Z",
+                "小計": 1
+            }
+            
+            
+            
+        ]
+    },
+
+   ```
+
+    # (4) モニタリング項目（１）新規陽性者数
+        - 人数と7日間平均　→　data/daily_positive_detail.jsonに記載
+        - 最終更新日は"date"に記載する
+
+        ・記載例（daily_positive_detail.json）
+   ```
+{
+    "date": "2021\/05\/05 21:30",
+    "data": [
+        {	
+            "diagnosed_date": "2020-04-01",
+            "count": 0,
+            "missing_count": null,
+            "reported-count": null,
+            "weekly_gain_ratio": null,
+            "untracked_percent": null,
+            "weekly_average_count": null,
+            "weekly_average_untracked_count": null,
+            "weekly_average_untracked_increse_percent": null
+        },	
+        
+        （略）
+
+        {
+            "diagnosed_date": "2021-05-04",
+            "count": 0,
+            "missing_count": null,
+            "reported-count": null,
+            "weekly_gain_ratio": null,
+            "untracked_percent": null,
+            "weekly_average_count": 3.1,
+            "weekly_average_untracked_count": null,
+            "weekly_average_untracked_increse_percent": null
+        },
+        {
+            "diagnosed_date": "2021-05-05",
+            "count": 1,
+            "missing_count": null,
+            "reported-count": null,
+            "weekly_gain_ratio": null,
+            "untracked_percent": null,
+            "weekly_average_count": 3.1,
+            "weekly_average_untracked_count": null,
+            "weekly_average_untracked_increse_percent": null
+        }
+        
+
+    ]
+}
+
+   ```
