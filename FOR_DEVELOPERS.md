@@ -251,7 +251,7 @@ $ vagrant up
 - 人数と7日間平均　→　data/daily_positive_detail.jsonに記載
 - 最終更新日は"date"に記載する
 
-   ```記載例（daily_positive_detail.json）
+```記載例（daily_positive_detail.json）
 {
     "date": "2021\/05\/05 21:30",
     "data": [
@@ -296,4 +296,4 @@ $ vagrant up
     ]
 }
 
-   ```
+```
