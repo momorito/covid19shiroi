@@ -12,7 +12,6 @@
 |[docker compose](https://docs.docker.com/compose/install/)| |[本プログラムをdocker composeで実行する場合](#2-2-docker-compose-を使う場合)|
 |[Vagrant](https://www.vagrantup.com/)| |[本プログラムをVagrantで実行する場合](#2-3-vagrant-を使う場合)|
 |[Visual Studio Code](https://code.visualstudio.com/) + [Remote Containers](https://code.visualstudio.com/docs/remote/remote-overview) | |[Visual Studio Code + Remote Containersで開発する場合](#2-4-visual-studio-code--remote-containersで開発する場合)|
-|[Gitpod](https://www.gitpod.io/)| |[Gitpodで開発する場合](#2-5-gitpodで開発する場合)|
 
 ### 1-1. Visual Studio Codeの拡張機能
 
@@ -123,8 +122,8 @@ $ vagrant up
 
 ## 4. 各数値の格納場所
 # (1) 最新のお知らせ
-   - 基本的な項目　→　data/news.jsonに記載。
-   - 最終更新　→　data/data.json中の"lastUpdate"に記載
+- 基本的な項目　→　data/news.jsonに記載。
+- 最終更新　→　data/data.json中の"lastUpdate"に記載
    
 ```記載例（基本的な項目 news.json）
 {
@@ -167,7 +166,7 @@ $ vagrant up
 
 
 # (2) 検査陽性者の状況
-    - 各種人数・更新日　→　data/data.json中の"main_summary"に記載
+- 各種人数・更新日　→　data/data.json中の"main_summary"に記載
 
 ```記載例（各種人数 data.json）
 "main_summary": {
@@ -218,12 +217,11 @@ $ vagrant up
 
    ```
 
-   # (3) 報告日別による陽性者数の推移
-    - 日付と数字　→　data/data.json中の"patients_summary"に記載
-    - 最終更新日は"patients_summary"中の"date"に記載
+# (3) 報告日別による陽性者数の推移
+- 日付と数字　→　data/data.json中の"patients_summary"に記載
+- 最終更新日は"patients_summary"中の"date"に記載
 
- ・記載例（data.json）
-   ```
+```記載例（data.json）
 "patients_summary": {
         "date": "2021\/05\/05 21:30",
         "data": [
@@ -247,15 +245,13 @@ $ vagrant up
             
         ]
     },
+```
+   
+# (4) モニタリング項目（１）新規陽性者数
+- 人数と7日間平均　→　data/daily_positive_detail.jsonに記載
+- 最終更新日は"date"に記載する
 
-   ```
-
-    # (4) モニタリング項目（１）新規陽性者数
-        - 人数と7日間平均　→　data/daily_positive_detail.jsonに記載
-        - 最終更新日は"date"に記載する
-
-        ・記載例（daily_positive_detail.json）
-   ```
+   ```記載例（daily_positive_detail.json）
 {
     "date": "2021\/05\/05 21:30",
     "data": [
