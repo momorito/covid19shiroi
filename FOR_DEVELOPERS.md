@@ -129,3 +129,49 @@ $ vagrant up
 
 ---
 
+## 4. 各数値の格納場所
+# (1) 最新のお知らせ
+   基本的な項目　→　data/news.jsonに記載。
+   最終更新　→　data/data.json中の"lastUpdate"に記載
+   ・記載例（基本的な項目）
+   ```
+{
+    "newsItems": [
+        {
+            "date": "2021\/04\/30",
+            "url": "https:\/\/www.city.shiroi.chiba.jp\/kenko\/covid19\/jokyo/8420.html",
+            "text": "市内における感染者の発生について｜4月30日更新"
+        },
+        {
+            "date": "2021\/04\/30",
+            "url": "https:\/\/www.city.shiroi.chiba.jp\/kenko/covid19\/info\/8404.html",
+            "text": "千葉県からのお願い【新型コロナ】"
+        },
+        {
+            "date": "2021\/04\/30",
+            "url": "https:\/\/www.city.shiroi.chiba.jp\/kenko/covid19\/jokyo/8421.html",
+            "text": "市内小中学校の感染状況について｜4月30日更新"
+        },
+        
+        {
+            "date": "2021\/04\/27",
+            "url": "https:\/\/www.city.shiroi.chiba.jp\/kenko\/covid19\/vaccine\/9121.html",
+            "text": "ワクチン接種時に利用できるタクシー券を交付（要介護2以上・重度心身障がいの方向け）"
+        },
+        {
+            "date": "2021\/04\/23",
+            "url": "https:\/\/www.city.shiroi.chiba.jp\/kenko\/covid19\/jokyo\/8562.html",
+            "text": "市職員の感染について｜4月23日更新"
+        }
+        
+    ]
+}
+
+   ```
+
+・記載例（最終更新）
+```
+"lastUpdate": "2021\/05\/05 21:00",
+```
+
+# (2) 検査要請車の状況
