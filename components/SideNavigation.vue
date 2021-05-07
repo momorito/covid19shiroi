@@ -209,12 +209,6 @@ export default Vue.extend({
         },
         {
           svg: 'CovidIcon',
-          title: this.$t('新型コロナワクチンの接種について'),
-          link:
-            'https://www.city.shiroi.chiba.jp/kenko/covid19/vaccine/8405.html',
-        },
-        {
-          svg: 'CovidIcon',
           title: this.$t(
             '感染対策・予防'
           ),
@@ -227,6 +221,23 @@ export default Vue.extend({
           link:
             'https://www.city.shiroi.chiba.jp/kenko/covid19/sien/index.html',
           divider: true,
+        },
+        {
+          svg: 'Vaccine',
+          title: this.$t('ワクチン情報'),
+          link: this.localePath('/'),
+        },
+        {
+          svg: 'CovidIcon',
+          title: this.$t('新型コロナワクチンの接種について'),
+          link:
+            'https://www.city.shiroi.chiba.jp/kenko/covid19/vaccine/8405.html',
+        },
+        {
+          svg: 'Vaccine',
+          title: this.$t('白井市新型コロナ　ワクチン予約サイト'),
+          link: 'https://v-yoyaku.jp/login',
+          divider:true,
         },
         {
           svg: 'CovidIcon',

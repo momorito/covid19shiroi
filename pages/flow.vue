@@ -319,6 +319,7 @@ import AppLink from '@/components/AppLink.vue'
 import PageHeader from '@/components/PageHeader.vue'
 import PrinterButton from '@/components/PrinterButton.vue'
 import CovidIcon from '@/static/covid.svg'
+import Vaccine from '@/static/vaccine.svg'
 import IconBed from '@/static/flow/bed.svg'
 import FigCondAnx from '@/static/flow/cond_anx.svg'
 import FigCondSy from '@/static/flow/cond_sy.svg'
@@ -352,6 +353,7 @@ export default Vue.extend({
     FigCondAnx,
     IconPhone,
     IconBed,
+    Vaccine
   },
   middleware: 'redirect',
   data(): LocalData {
