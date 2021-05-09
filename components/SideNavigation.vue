@@ -236,7 +236,7 @@ export default Vue.extend({
         {
           svg: 'Vaccine',
           title: this.$t('白井市新型コロナ　ワクチン予約サイト'),
-          link: 'https://v-yoyaku.jp/login',
+          link: 'https://v-yoyaku.jp/122327-shiroi',
           divider:true,
         },
         {
