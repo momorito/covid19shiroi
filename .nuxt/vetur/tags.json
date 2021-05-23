@@ -1,0 +1,224 @@
+{
+  "ActiveTokyoAlert": {
+    "description": "Auto imported from components/ActiveTokyoAlert.vue"
+  },
+  "AgencyBarChart": {
+    "description": "Auto imported from components/AgencyBarChart.vue"
+  },
+  "AppLink": {
+    "description": "Auto imported from components/AppLink.vue"
+  },
+  "CardsLazyRow": {
+    "description": "Auto imported from components/CardsLazyRow.vue"
+  },
+  "CardsMonitoring": {
+    "description": "Auto imported from components/CardsMonitoring.vue"
+  },
+  "CardsReference": {
+    "description": "Auto imported from components/CardsReference.vue"
+  },
+  "CardsTab": {
+    "description": "Auto imported from components/CardsTab.vue"
+  },
+  "ConfirmedCasesByMunicipalitiesTable": {
+    "description": "Auto imported from components/ConfirmedCasesByMunicipalitiesTable.vue"
+  },
+  "ConfirmedCasesDetailsTable": {
+    "description": "Auto imported from components/ConfirmedCasesDetailsTable.vue"
+  },
+  "Consultation": {
+    "description": "Auto imported from components/Consultation.vue"
+  },
+  "DashedRectangleTimeBarChart": {
+    "description": "Auto imported from components/DashedRectangleTimeBarChart.vue"
+  },
+  "DataSelector": {
+    "description": "Auto imported from components/DataSelector.vue"
+  },
+  "DataTable": {
+    "description": "Auto imported from components/DataTable.vue"
+  },
+  "DataView": {
+    "description": "Auto imported from components/DataView.vue"
+  },
+  "DataViewCustomInfoPanel": {
+    "description": "Auto imported from components/DataViewCustomInfoPanel.vue"
+  },
+  "DataViewDataSetPanel": {
+    "description": "Auto imported from components/DataViewDataSetPanel.vue"
+  },
+  "DataViewExpantionPanel": {
+    "description": "Auto imported from components/DataViewExpantionPanel.vue"
+  },
+  "DataViewShare": {
+    "description": "Auto imported from components/DataViewShare.vue"
+  },
+  "DataViewTable": {
+    "description": "Auto imported from components/DataViewTable.vue"
+  },
+  "DevelopmentModeMark": {
+    "description": "Auto imported from components/DevelopmentModeMark.vue"
+  },
+  "FeverMixedChart": {
+    "description": "Auto imported from components/FeverMixedChart.vue"
+  },
+  "InfectionMedicalcareprovisionStatus": {
+    "description": "Auto imported from components/InfectionMedicalcareprovisionStatus.vue"
+  },
+  "LanguageSelector": {
+    "description": "Auto imported from components/LanguageSelector.vue"
+  },
+  "LinkToInformationAboutEmergencyMeasure": {
+    "description": "Auto imported from components/LinkToInformationAboutEmergencyMeasure.vue"
+  },
+  "MenuList": {
+    "description": "Auto imported from components/MenuList.vue"
+  },
+  "MetroBarChart": {
+    "description": "Auto imported from components/MetroBarChart.vue"
+  },
+  "MixedBarAndLineChart": {
+    "description": "Auto imported from components/MixedBarAndLineChart.vue"
+  },
+  "MonitoringCommentCard": {
+    "description": "Auto imported from components/MonitoringCommentCard.vue"
+  },
+  "MonitoringCommentCardImageSwipe": {
+    "description": "Auto imported from components/MonitoringCommentCardImageSwipe.vue"
+  },
+  "MonitoringCommentFrame": {
+    "description": "Auto imported from components/MonitoringCommentFrame.vue"
+  },
+  "MonitoringConfirmedCasesChart": {
+    "description": "Auto imported from components/MonitoringConfirmedCasesChart.vue"
+  },
+  "MonitoringConsultationDeskReportChart": {
+    "description": "Auto imported from components/MonitoringConsultationDeskReportChart.vue"
+  },
+  "MonitoringItemsOverviewTableInfectionStatus": {
+    "description": "Auto imported from components/MonitoringItemsOverviewTableInfectionStatus.vue"
+  },
+  "MonitoringItemsOverviewTableMedicalSystem": {
+    "description": "Auto imported from components/MonitoringItemsOverviewTableMedicalSystem.vue"
+  },
+  "MonitoringItemsOverviewTableValueWithTranslatableUnit": {
+    "description": "Auto imported from components/MonitoringItemsOverviewTableValueWithTranslatableUnit.vue"
+  },
+  "NoScript": {
+    "description": "Auto imported from components/NoScript.vue"
+  },
+  "OpenDataLink": {
+    "description": "Auto imported from components/OpenDataLink.vue"
+  },
+  "PageHeader": {
+    "description": "Auto imported from components/PageHeader.vue"
+  },
+  "PositiveRateMixedChart": {
+    "description": "Auto imported from components/PositiveRateMixedChart.vue"
+  },
+  "PrinterButton": {
+    "description": "Auto imported from components/PrinterButton.vue"
+  },
+  "ScrollableChart": {
+    "description": "Auto imported from components/ScrollableChart.vue"
+  },
+  "SevereCaseBarChart": {
+    "description": "Auto imported from components/SevereCaseBarChart.vue"
+  },
+  "SideNavigation": {
+    "description": "Auto imported from components/SideNavigation.vue"
+  },
+  "SiteTopUpper": {
+    "description": "Auto imported from components/SiteTopUpper.vue"
+  },
+  "StaticCard": {
+    "description": "Auto imported from components/StaticCard.vue"
+  },
+  "StaticInfo": {
+    "description": "Auto imported from components/StaticInfo.vue"
+  },
+  "StayingPopulation": {
+    "description": "Auto imported from components/StayingPopulation.vue"
+  },
+  "TimeBarChart": {
+    "description": "Auto imported from components/TimeBarChart.vue"
+  },
+  "TimeStackedBarChart": {
+    "description": "Auto imported from components/TimeStackedBarChart.vue"
+  },
+  "TokyoAlertCard": {
+    "description": "Auto imported from components/TokyoAlertCard.vue"
+  },
+  "UntrackedRateMixedChart": {
+    "description": "Auto imported from components/UntrackedRateMixedChart.vue"
+  },
+  "WhatsNew": {
+    "description": "Auto imported from components/WhatsNew.vue"
+  },
+  "CardsAgencyCard": {
+    "description": "Auto imported from components/cards/AgencyCard.vue"
+  },
+  "CardsCardRow": {
+    "description": "Auto imported from components/cards/CardRow.vue"
+  },
+  "CardsConfirmedCasesAttributesCard": {
+    "description": "Auto imported from components/cards/ConfirmedCasesAttributesCard.vue"
+  },
+  "CardsConfirmedCasesByMunicipalitiesCard": {
+    "description": "Auto imported from components/cards/ConfirmedCasesByMunicipalitiesCard.vue"
+  },
+  "CardsConfirmedCasesDetailsCard": {
+    "description": "Auto imported from components/cards/ConfirmedCasesDetailsCard.vue"
+  },
+  "CardsConfirmedCasesNumberCard": {
+    "description": "Auto imported from components/cards/ConfirmedCasesNumberCard.vue"
+  },
+  "CardsConsultationAboutFeverNumberCard": {
+    "description": "Auto imported from components/cards/ConsultationAboutFeverNumberCard.vue"
+  },
+  "CardsDeathsByDeathDateCard": {
+    "description": "Auto imported from components/cards/DeathsByDeathDateCard.vue"
+  },
+  "CardsHospitalizedNumberCard": {
+    "description": "Auto imported from components/cards/HospitalizedNumberCard.vue"
+  },
+  "CardsMetroCard": {
+    "description": "Auto imported from components/cards/MetroCard.vue"
+  },
+  "CardsMonitoringConfirmedCasesNumberCard": {
+    "description": "Auto imported from components/cards/MonitoringConfirmedCasesNumberCard.vue"
+  },
+  "CardsMonitoringConsultationDeskReportsNumberCard": {
+    "description": "Auto imported from components/cards/MonitoringConsultationDeskReportsNumberCard.vue"
+  },
+  "CardsMonitoringItemsOverviewCard": {
+    "description": "Auto imported from components/cards/MonitoringItemsOverviewCard.vue"
+  },
+  "CardsPositiveNumberByDevelopedDateCard": {
+    "description": "Auto imported from components/cards/PositiveNumberByDevelopedDateCard.vue"
+  },
+  "CardsPositiveNumberByDiagnosedDateCard": {
+    "description": "Auto imported from components/cards/PositiveNumberByDiagnosedDateCard.vue"
+  },
+  "CardsPositiveRateCard": {
+    "description": "Auto imported from components/cards/PositiveRateCard.vue"
+  },
+  "CardsSevereCaseCard": {
+    "description": "Auto imported from components/cards/SevereCaseCard.vue"
+  },
+  "CardsTelephoneAdvisoryReportsNumberCard": {
+    "description": "Auto imported from components/cards/TelephoneAdvisoryReportsNumberCard.vue"
+  },
+  "CardsTestedNumberCard": {
+    "description": "Auto imported from components/cards/TestedNumberCard.vue"
+  },
+  "CardsTokyoFeverConsultationCenterReportsNumberCard": {
+    "description": "Auto imported from components/cards/TokyoFeverConsultationCenterReportsNumberCard.vue"
+  },
+  "CardsTokyoRulesApplicationNumberCard": {
+    "description": "Auto imported from components/cards/TokyoRulesApplicationNumberCard.vue"
+  },
+  "CardsUntrackedRateCard": {
+    "description": "Auto imported from components/cards/UntrackedRateCard.vue"
+  }
+}
