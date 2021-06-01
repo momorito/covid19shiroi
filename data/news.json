@@ -1,29 +1,29 @@
 {
     "newsItems": [
         {
-            "date": "2021\/05\/31",
+            "date": "2021\/06\/01",
             "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/vaccine/9215.html",
-            "text": "新型コロナウイルスワクチンの予約及び接種状況について（5月31日更新）"
+            "text": "新型コロナウイルスワクチンの予約及び接種状況について（6月1日更新）"
         },
         {
-            "date": "2021\/05\/31",
+            "date": "2021\/06\/01",
             "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/jokyo/8420.html",
-            "text": "市内における感染者の発生について｜5月31日更新"
+            "text": "市内における感染者の発生について｜6月1日更新"
         },
         {
-            "date": "2021\/05\/31",
-            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/taiou/9142.html",
-            "text": "学校体育施設開放事業の利用について【新型コロナ】"
+            "date": "2021\/06\/01",
+            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/info/8590.html",
+            "text": "新型コロナウイルス感染症に関する市長メッセージ"
         },
         {
-            "date": "2021\/05\/28",
-            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/vaccine/9275.html",
-            "text": "【新型コロナワクチン】65歳未満の基礎疾患を有する方へ"
-        },
-        {
-            "date": "2021\/05\/28",
+            "date": "2021\/06\/01",
             "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/vaccine/8594.html",
             "text": "新型コロナワクチン接種の予約について"
+        },
+        {
+            "date": "2021\/06\/01",
+            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/vaccine/9121.html",
+            "text": "ワクチン接種時に利用できるタクシー券を交付（要介護2以上・重度心身障がいの方向け）"
         }
     ]
 }
