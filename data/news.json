@@ -1,14 +1,19 @@
 {
     "newsItems": [
         {
-            "date": "2021\/07\/05",
-            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/jokyo/8420.html",
-            "text": "市内における感染者の発生について｜7月5日更新（感染者なし）"
+            "date": "2021\/07\/07",
+            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/vaccine/9215.html",
+            "text": "新型コロナウイルスワクチンの接種状況について（7月7日更新）"
         },
         {
-            "date": "2021\/07\/05",
-            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/vaccine/9215.html",
-            "text": "新型コロナウイルスワクチンの接種状況について（7月5日更新）"
+            "date": "2021\/07\/07",
+            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/jokyo/8420.html",
+            "text": "市内における感染者の発生について｜7月7日更新"
+        },
+        {
+            "date": "2021\/07\/06",
+            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/vaccine/9275.html",
+            "text": "【新型コロナワクチン】満12歳以上の基礎疾患を有する方へ"
         },
         {
             "date": "2021\/07\/02",
@@ -19,11 +24,6 @@
             "date": "2021\/07\/01",
             "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/sien/9454.html",
             "text": "新型コロナウイルス感染症生活困窮者自立支援金"
-        },
-        {
-            "date": "2021\/06\/30",
-            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/vaccine/8594.html",
-            "text": "新型コロナワクチン接種の予約について"
         }
     ]
 }
