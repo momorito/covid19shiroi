@@ -1,24 +1,24 @@
 {
     "newsItems": [
         {
-            "date": "2021\/07\/27",
-            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/jokyo/8570.html",
-            "text": "市内保育所等の感染状況について｜7月27日更新"
-        },
-        {
-            "date": "2021\/07\/27",
+            "date": "2021\/07\/28",
             "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/jokyo/8420.html",
-            "text": "市内における感染者の発生について｜7月27日更新"
+            "text": "市内における感染者の発生について｜7月28日更新"
         },
         {
-            "date": "2021\/07\/27",
+            "date": "2021\/07\/28",
+            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/vaccine/9215.html",
+            "text": "新型コロナウイルスワクチンの接種状況について（7月28日更新）"
+        },
+        {
+            "date": "2021\/07\/28",
             "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/vaccine/9631.html",
             "text": "新型コロナウイルス感染症予防接種証明書（ワクチンパスポート）の申請について"
         },
         {
             "date": "2021\/07\/27",
-            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/vaccine/9215.html",
-            "text": "新型コロナウイルスワクチンの接種状況について（7月27日更新）"
+            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/jokyo/8570.html",
+            "text": "市内保育所等の感染状況について｜7月27日更新"
         },
         {
             "date": "2021\/07\/26",
