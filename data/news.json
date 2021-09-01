@@ -1,14 +1,19 @@
 {
     "newsItems": [
         {
-            "date": "2021\/08\/31",
-            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/vaccine/9215.html",
-            "text": "新型コロナウイルスワクチンの接種状況について（8月31日更新）"
+            "date": "2021\/09\/01",
+            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/info/8590.html",
+            "text": "新型コロナウイルス感染症に関する市長メッセージ"
         },
         {
-            "date": "2021\/08\/31",
+            "date": "2021\/09\/01",
             "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/jokyo/8420.html",
-            "text": "市内における感染者の発生について｜8月31日更新"
+            "text": "市内における感染者の発生について｜9月1日更新"
+        },
+        {
+            "date": "2021\/09\/01",
+            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/vaccine/9215.html",
+            "text": "新型コロナウイルスワクチンの接種状況について（9月1日更新）"
         },
         {
             "date": "2021\/08\/26",
@@ -19,11 +24,6 @@
             "date": "2021\/08\/26",
             "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/jokyo/9754.html",
             "text": "こども発達センター利用者の感染状況について"
-        },
-        {
-            "date": "2021\/08\/25",
-            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/jokyo/8421.html",
-            "text": "市内小中学校の感染状況について｜8月25日更新"
         }
     ]
 }
