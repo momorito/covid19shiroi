@@ -1,14 +1,19 @@
 {
     "newsItems": [
         {
-            "date": "2021\/09\/06",
-            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/jokyo/8420.html",
-            "text": "市内における感染者の発生について｜9月6日更新（感染者なし）"
+            "date": "2021\/09\/07",
+            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/jokyo/8531.html",
+            "text": "集団発生について｜9月7日更新"
         },
         {
-            "date": "2021\/09\/06",
+            "date": "2021\/09\/07",
+            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/jokyo/8420.html",
+            "text": "市内における感染者の発生について｜9月7日更新"
+        },
+        {
+            "date": "2021\/09\/07",
             "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/vaccine/9215.html",
-            "text": "新型コロナウイルスワクチンの接種状況について（9月6日更新）"
+            "text": "新型コロナウイルスワクチンの接種状況について（9月7日更新）"
         },
         {
             "date": "2021\/09\/03",
@@ -19,11 +24,6 @@
             "date": "2021\/09\/01",
             "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/info/8590.html",
             "text": "新型コロナウイルス感染症に関する市長メッセージ"
-        },
-        {
-            "date": "2021\/08\/26",
-            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/info/9678.html",
-            "text": "緊急事態宣言発令中"
         }
     ]
 }
