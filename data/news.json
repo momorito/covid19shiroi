@@ -1,29 +1,29 @@
 {
     "newsItems": [
         {
-            "date": "2021\/09\/29",
-            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/jokyo/8420.html",
-            "text": "市内における感染者の発生について｜9月29日更新"
-        },
-        {
-            "date": "2021\/09\/29",
+            "date": "2021\/09\/30",
             "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/vaccine/9215.html",
-            "text": "新型コロナウイルスワクチンの接種状況について（9月29日更新）"
+            "text": "新型コロナウイルスワクチンの接種状況について（9月30日更新）"
         },
         {
-            "date": "2021\/09\/29",
-            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/vaccine/8594.html",
-            "text": "新型コロナワクチン接種の予約について"
+            "date": "2021\/09\/30",
+            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/jokyo/8420.html",
+            "text": "市内における感染者の発生について｜9月30日更新（感染者なし）"
         },
         {
-            "date": "2021\/09\/18",
-            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/info/8404.html",
-            "text": "千葉県からのお願い【新型コロナ】"
+            "date": "2021\/09\/30",
+            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/taiou/9676.html",
+            "text": "社会体育施設（テニスコート、グラウンド、陸上競技場）の利用について【新型コロナ】"
         },
         {
-            "date": "2021\/09\/15",
-            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/info/8590.html",
-            "text": "新型コロナウイルス感染症に関する市長メッセージ"
+            "date": "2021\/09\/30",
+            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/taiou/9142.html",
+            "text": "学校体育施設開放事業の利用について【新型コロナ】"
+        },
+        {
+            "date": "2021\/09\/30",
+            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/taiou/9698.html",
+            "text": "（9月30日更新）公民館、コミュニティセンター、市民まちづくりサポートセンターの利用について【新型コロナ】"
         }
     ]
 }
