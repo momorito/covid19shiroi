@@ -1,29 +1,29 @@
 {
     "newsItems": [
         {
-            "date": "2021\/12\/06",
+            "date": "2021\/12\/09",
             "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/vaccine/9215.html",
-            "text": "新型コロナウイルスワクチンの接種状況について（12月6日更新）"
+            "text": "新型コロナウイルスワクチンの接種状況について（12月9日更新）"
         },
         {
-            "date": "2021\/12\/06",
+            "date": "2021\/12\/09",
+            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/taiou/9698.html",
+            "text": "（12月1日更新）公民館、コミュニティセンター、市民まちづくりサポートセンターの利用について【新型コロナ】"
+        },
+        {
+            "date": "2021\/12\/09",
             "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/jokyo/8420.html",
-            "text": "市内における感染者の発生について｜12月6日更新（感染者なし）"
+            "text": "市内における感染者の発生について｜12月9日更新（感染者なし）"
+        },
+        {
+            "date": "2021\/12\/09",
+            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/vaccine/8594.html",
+            "text": "新型コロナワクチン接種の予約について"
         },
         {
             "date": "2021\/12\/06",
             "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/vaccine/9631.html",
             "text": "新型コロナウイルス感染症予防接種証明書（ワクチンパスポート）の申請について"
-        },
-        {
-            "date": "2021\/12\/03",
-            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/sien/10091.html",
-            "text": "令和3年度子育て世帯への臨時特別給付金"
-        },
-        {
-            "date": "2021\/12\/03",
-            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/vaccine/10035.html",
-            "text": "新型コロナワクチンの追加接種（3回目接種）について"
         }
     ]
 }
