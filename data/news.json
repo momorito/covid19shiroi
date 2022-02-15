@@ -1,29 +1,29 @@
 {
     "newsItems": [
         {
-            "date": "2022\/02\/14",
+            "date": "2022\/02\/15",
             "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/vaccine/9215.html",
-            "text": "新型コロナウイルスワクチンの接種状況について（2月14日分更新）"
+            "text": "新型コロナウイルスワクチンの接種状況について（2月15日分更新）"
         },
         {
-            "date": "2022\/02\/14",
-            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/vaccine/10035.html",
-            "text": "新型コロナワクチンの追加接種（3回目接種）について"
+            "date": "2022\/02\/15",
+            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/vaccine/10166.html",
+            "text": "新型コロナウイルスワクチン接種証明書の発行について"
         },
         {
-            "date": "2022\/02\/14",
+            "date": "2022\/02\/15",
             "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/jokyo/8562.html",
-            "text": "市職員の感染について｜2月14日更新"
+            "text": "市職員の感染について｜2月15日更新"
         },
         {
-            "date": "2022\/02\/14",
-            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/jokyo/8420.html",
-            "text": "市内における感染者の発生について｜2月13日分更新"
-        },
-        {
-            "date": "2022\/02\/14",
+            "date": "2022\/02\/15",
             "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/jokyo/8421.html",
-            "text": "市内小中学校の感染状況について｜2月14日更新"
+            "text": "市内小中学校の感染状況について｜2月15日更新"
+        },
+        {
+            "date": "2022\/02\/15",
+            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/jokyo/9754.html",
+            "text": "こども発達センター利用者の感染状況について"
         }
     ]
 }
