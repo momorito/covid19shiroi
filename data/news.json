@@ -1,6 +1,11 @@
 {
     "newsItems": [
         {
+            "date": "2022\/03\/05",
+            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/jokyo/8420.html",
+            "text": "市内における感染者の発生について｜3月4日分更新"
+        },
+        {
             "date": "2022\/03\/04",
             "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/vaccine/9215.html",
             "text": "新型コロナウイルスワクチンの接種状況について（3月4日更新）"
@@ -19,11 +24,6 @@
             "date": "2022\/03\/04",
             "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/taiou/9698.html",
             "text": "（3月4日更新）公民館、コミュニティセンター、市民まちづくりサポートセンターの利用について【新型コロナ】"
-        },
-        {
-            "date": "2022\/03\/04",
-            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/jokyo/8562.html",
-            "text": "市職員の感染について｜3月4日更新"
         }
     ]
 }
