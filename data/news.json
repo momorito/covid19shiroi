@@ -1,29 +1,29 @@
 {
     "newsItems": [
         {
-            "date": "2022\/05\/25",
+            "date": "2022\/05\/30",
             "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/vaccine/9215.html",
-            "text": "新型コロナウイルスワクチンの接種状況について（5月25日分更新）"
+            "text": "新型コロナウイルスワクチンの接種状況について（5月30日分更新）"
         },
         {
-            "date": "2022\/05\/25",
+            "date": "2022\/05\/30",
+            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/jokyo/8421.html",
+            "text": "市内小中学校の感染状況について｜5月29日更新"
+        },
+        {
+            "date": "2022\/05\/30",
+            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/jokyo/8420.html",
+            "text": "市内における感染者の発生について｜5月29日分更新"
+        },
+        {
+            "date": "2022\/05\/30",
             "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/vaccine/10035.html",
             "text": "新型コロナワクチンの追加接種（3回目接種）について"
         },
         {
-            "date": "2022\/05\/25",
-            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/vaccine/9245.html",
-            "text": "白井市コロナワクチンもったいないバンクの登録者を募集します！"
-        },
-        {
-            "date": "2022\/05\/25",
-            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/vaccine/8594.html",
-            "text": "新型コロナワクチン接種の予約について"
-        },
-        {
-            "date": "2022\/05\/25",
-            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/jokyo/8420.html",
-            "text": "市内における感染者の発生について｜5月24日分更新"
+            "date": "2022\/05\/30",
+            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/vaccine/9121.html",
+            "text": "ワクチン接種時に利用できるタクシー券を交付（要介護2以上・重度心身障がいの方向け）"
         }
     ]
 }
