@@ -1,5 +1,5 @@
 {
-    "date": "2022\/06\/27 20:00",
+    "date": "2022\/06\/29 20:00",
     "data": [
         {	
             "diagnosed_date": "2020-04-01",
@@ -8980,6 +8980,28 @@
         {
             "diagnosed_date": "2022-06-26",
             "count": 3,
+            "missing_count": null,
+            "reported-count": null,
+            "weekly_gain_ratio": null,
+            "untracked_percent": null,
+            "weekly_average_count": 4.9,
+            "weekly_average_untracked_count": null,
+            "weekly_average_untracked_increse_percent": null
+        },
+        {
+            "diagnosed_date": "2022-06-27",
+            "count": 1,
+            "missing_count": null,
+            "reported-count": null,
+            "weekly_gain_ratio": null,
+            "untracked_percent": null,
+            "weekly_average_count": 4.9,
+            "weekly_average_untracked_count": null,
+            "weekly_average_untracked_increse_percent": null
+        },
+        {
+            "diagnosed_date": "2022-06-28",
+            "count": 2,
             "missing_count": null,
             "reported-count": null,
             "weekly_gain_ratio": null,
