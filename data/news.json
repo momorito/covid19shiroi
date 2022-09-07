@@ -1,29 +1,29 @@
 {
     "newsItems": [
         {
-            "date": "2022\/09\/05",
-            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/jokyo/8421.html",
-            "text": "市内小中学校の感染状況について｜9月5日更新"
-        },
-        {
-            "date": "2022\/09\/05",
+            "date": "2022\/09\/07",
             "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/vaccine/9215.html",
-            "text": "新型コロナウイルスワクチンの接種状況について（9月5日分更新）"
+            "text": "新型コロナウイルスワクチンの接種状況について（9月7日分更新）"
         },
         {
-            "date": "2022\/09\/05",
+            "date": "2022\/09\/07",
+            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/jokyo/8421.html",
+            "text": "市内小中学校の感染状況について｜9月7日更新"
+        },
+        {
+            "date": "2022\/09\/07",
             "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/jokyo/8420.html",
-            "text": "市内における感染者の発生について｜9月4日分更新"
+            "text": "市内における感染者の発生について｜9月6日分更新"
         },
         {
-            "date": "2022\/09\/01",
-            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/sien/10235.html",
-            "text": "千葉県新型コロナウイルス感染症に係るPCR等検査無料化事業について"
+            "date": "2022\/09\/07",
+            "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/vaccine/10412.html",
+            "text": "5歳から11歳の小児の新型コロナワクチン接種について"
         },
         {
-            "date": "2022\/09\/01",
+            "date": "2022\/09\/06",
             "url": "https://www.city.shiroi.chiba.jp/kenko/covid19/jokyo/8570.html",
-            "text": "市内保育所等・学童保育所の感染状況について｜9月1日更新"
+            "text": "市内保育所等・学童保育所の感染状況について｜9月6日更新"
         }
     ]
 }
