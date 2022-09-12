@@ -1,5 +1,5 @@
 {
-    "date": "2022\/09\/09 20:00",
+    "date": "2022\/09\/12 20:00",
     "data": [
         {	
             "diagnosed_date": "2020-04-01",
@@ -9799,6 +9799,39 @@
             "weekly_gain_ratio": null,
             "untracked_percent": null,
             "weekly_average_count": 48.1,
+            "weekly_average_untracked_count": null,
+            "weekly_average_untracked_increse_percent": null
+        },
+        {
+            "diagnosed_date": "2022-09-09",
+            "count": 52,
+            "missing_count": null,
+            "reported-count": null,
+            "weekly_gain_ratio": null,
+            "untracked_percent": null,
+            "weekly_average_count": 49.3,
+            "weekly_average_untracked_count": null,
+            "weekly_average_untracked_increse_percent": null
+        },
+        {
+            "diagnosed_date": "2022-09-10",
+            "count": 43,
+            "missing_count": null,
+            "reported-count": null,
+            "weekly_gain_ratio": null,
+            "untracked_percent": null,
+            "weekly_average_count": 49.7,
+            "weekly_average_untracked_count": null,
+            "weekly_average_untracked_increse_percent": null
+        },
+        {
+            "diagnosed_date": "2022-09-11",
+            "count": 49,
+            "missing_count": null,
+            "reported-count": null,
+            "weekly_gain_ratio": null,
+            "untracked_percent": null,
+            "weekly_average_count": 48.3,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
         }
