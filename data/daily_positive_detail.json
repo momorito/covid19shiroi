@@ -1,5 +1,5 @@
 {
-    "date": "2022\/09\/12 20:00",
+    "date": "2022\/09\/19 20:00",
     "data": [
         {	
             "diagnosed_date": "2020-04-01",
@@ -9832,6 +9832,50 @@
             "weekly_gain_ratio": null,
             "untracked_percent": null,
             "weekly_average_count": 48.3,
+            "weekly_average_untracked_count": null,
+            "weekly_average_untracked_increse_percent": null
+        },
+        {
+            "diagnosed_date": "2022-09-12",
+            "count": 23,
+            "missing_count": null,
+            "reported-count": null,
+            "weekly_gain_ratio": null,
+            "untracked_percent": null,
+            "weekly_average_count": 48.9,
+            "weekly_average_untracked_count": null,
+            "weekly_average_untracked_increse_percent": null
+        },
+        {
+            "diagnosed_date": "2022-09-13",
+            "count": 33,
+            "missing_count": null,
+            "reported-count": null,
+            "weekly_gain_ratio": null,
+            "untracked_percent": null,
+            "weekly_average_count": 46.4,
+            "weekly_average_untracked_count": null,
+            "weekly_average_untracked_increse_percent": null
+        },
+        {
+            "diagnosed_date": "2022-09-14",
+            "count": 48,
+            "missing_count": null,
+            "reported-count": null,
+            "weekly_gain_ratio": null,
+            "untracked_percent": null,
+            "weekly_average_count": 42.4,
+            "weekly_average_untracked_count": null,
+            "weekly_average_untracked_increse_percent": null
+        },
+        {
+            "diagnosed_date": "2022-09-15",
+            "count": 36,
+            "missing_count": null,
+            "reported-count": null,
+            "weekly_gain_ratio": null,
+            "untracked_percent": null,
+            "weekly_average_count": 40.6,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
         }
